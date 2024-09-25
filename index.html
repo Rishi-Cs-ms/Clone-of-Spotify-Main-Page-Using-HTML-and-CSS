@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png"/>
+    <title>Spotify Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav_option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav_option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="lib_option nav_option">
+                        <img src="./assets/library_icon.png">
+                        <a href="#">Your library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib_box">
+                    <p class="p1">Create Your first playlist</p>
+                    <p class="p2">It' easy, we'll help you</p>
+                    <button class="bedge">Create playlist</button>
+                </div>
+                <div class="lib_box">
+                    <p class="p1">Let's find some podcast to follow</p>
+                    <p class="p2">We'll keep you updated on new episodes</p>
+                    <button class="bedge">Browse Podcasts</button>
+                </div>
+            </div>
+        </div>
+        <div class="main_content">
+            <div class="sticky_nav"> 
+                <div>
+                    <img src="./assets/backward_icon.png" class="hover">
+                    <img src="./assets/forward_icon.png" class="hide hover">
+                </div>
+                <div>
+                    <button class="bedge hide">Explore Premium</button>
+                    <button class="bedge dark-bedge"><i class="fa-regular fa-circle-down"></i>Install App</button>
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+            <div class="cards">
+                <h2>Recently playesd</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg">
+                        <p class="card-title">Top 50- Global</p>
+                        <p class="card-info">your daily update of the most played tracks right...</p>
+                    </div>
+                </div>
+                <h2>Tranding Now Near You</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg">
+                        <p class="card-title">Top 50- Global</p>
+                        <p class="card-info">your daily update of the most played tracks right...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg">
+                        <p class="card-title">Top 50- Global</p>
+                        <p class="card-info">your daily update of the most played tracks right...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card4img.jpeg">
+                        <p class="card-title">Top 50- Global</p>
+                        <p class="card-info">your daily update of the most played tracks right...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card3img.jpeg">
+                        <p class="card-title">Top 50- Global</p>
+                        <p class="card-info">your daily update of the most played tracks right...</p>
+                    </div> 
+                    <div class="card">
+                        <img src="./assets/card2img.jpeg">
+                        <p class="card-title">Top 50- Global</p>
+                        <p class="card-info">your daily update of the most played tracks right...</p>
+                    </div> 
+                </div>
+
+                <h2>Featurred charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="./assets/card5img.jpeg">
+                        <p class="card-title">Top 50- Global</p>
+                        <p class="card-info">your daily update of the most played tracks right...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card6img.jpeg">
+                        <p class="card-title">Top 50- Global</p>
+                        <p class="card-info">your daily update of the most played tracks right...</p>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/card1img.jpeg">
+                        <p class="card-title">Top 50- Global</p>
+                        <p class="card-info">your daily update of the most played tracks right...</p>
+                    </div>
+                </div>
+                <footer class="footer">
+                    <hr class="line">
+                </footer>
+            </div>
+        </div>
+        <div class="music_player">
+            <div class="album">
+                <div class="album-img">
+                    <img src="./assets/card2img.jpeg">
+                </div>
+                <div class="album-content">
+                    <span class="main-content">Sataranga(From "Animal")</span><br>
+                    <span class="sub-content">Argit Singh,Shreyas Puranik</span>
+                </div>
+                <span class="material-symbols-outlined">add_circle </span>
+            </div>
+            <div class="player">
+                <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-icons">
+                    <img src="./assets/player_icon2.png" class="player-icons">
+                    <img src="./assets/player_icon3.png" class="player-icons" style="opacity: 1; height: 2rem;">
+                    <img src="./assets/player_icon4.png" class="player-icons">
+                    <img src="./assets/player_icon5.png" class="player-icons">
+                </div>
+                <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" value="0" class="progress-bar">
+                    <span class="total-time">3:33</span>
+                </div>  
+            </div>
+            <div class="controls">
+                <img src="./assets/contrl-image1.png" style="margin-top:2px">
+                <img src="./assets/contrl-image2.png">
+                <img src="./assets/contrl-image3.png">
+                <img src="./assets/contrl-image4.png">
+                <img src="./assets/contrl-image5.png">
+                <input type="range" min="0" max="100" value="0" class="volume-bar">
+                <img src="./assets/contrl-image6.png"style="margin-top:3px">
+                <img src="./assets/contrl-image7.png"style="margin-top:3px">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
